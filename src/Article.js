@@ -1,24 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <article>
+function Article()
+{
+    return (
+        <article>
         <h2>
           Современные десктопные процессоры архитектуры x86 общие принципы работы (x86 CPU digest 2.0)
         </h2>
@@ -35,8 +18,5 @@ function App() {
 Ну и традиционное предупреждение: если иное не указано явно, то слово «процессор» в данном материале обозначает «x86(-64) процессор, предназначенный для установки в десктопы или (намного реже) мобильные компьютеры». Серверные процессоры, специализированные процессоры с архитектурой x86, всевозможные embedded-варианты — всё это в рамках статьи не рассматривается.Оглавление
 </p>
       </article>
-    </div>
-  );
+    );
 }
-
-export default App;

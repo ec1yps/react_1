@@ -1,4 +1,5 @@
 article {
-    background-color: rgb(64, 64, 64);
+    background-color: #282c34;
     color: rgb(211, 211, 211);
+    padding: 15px;
 }

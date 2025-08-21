@@ -1,7 +1,13 @@
+import "./Footer.css";
+
 function Footer() {
+    var date = new Date();
     return (
+        
         <footer>
-            <p>&copy - 2025</p>
+            <p>{String.fromCharCode(169) + " " + date.getFullYear()}</p>
         </footer>
     );
 }
+
+export default Footer;

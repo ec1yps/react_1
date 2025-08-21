@@ -18,6 +18,19 @@ function Article() {
 			<p>
 				Ну и традиционное предупреждение: если иное не указано явно, то слово «процессор» в данном материале обозначает «x86(-64) процессор, предназначенный для установки в десктопы или (намного реже) мобильные компьютеры». Серверные процессоры, специализированные процессоры с архитектурой x86, всевозможные embedded-варианты — всё это в рамках статьи не рассматривается.Оглавление
 			</p>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam eaque esse tempora deleniti non a accusamus nostrum molestiae eveniet totam consectetur eligendi repellat tempore quod eos nisi, natus exercitationem velit?</p>
+			<ol>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ol>
 		</article>
 	);
 }

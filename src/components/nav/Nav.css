@@ -1,0 +1,31 @@
+.Nav {
+    background-color: #282c34;
+    border-top: 2px solid #61dafb;
+    border-bottom: 2px solid #61dafb;
+    padding: 15px;
+}
+
+.Nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 5%;
+}
+
+.Nav-link {
+    color: #61dafb;
+    padding: 15px;
+}
+
+.Nav-link:hover {
+    color: #282c34;
+    background-color: #61dafb;
+}
+
+.Nav-link:hover:visited {
+    color: #282c34;
+}
+
+.Nav-link:visited {
+    color: #d89518;
+}

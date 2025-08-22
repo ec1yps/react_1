@@ -1,11 +1,13 @@
+import './Nav.css';
+
 function Nav(props) {
     return (
-        <nav>
-            <ul>
+        <nav className='Nav'>
+            <ul className='Nav-list'>
                 {
                     Object.keys(props.navigation).map(
                         elem => {
-                            return <li key={elem}><a href={props.navigation[elem]}>{elem}</a></li>
+                            return <li className='Nav-item' key={elem}><a className='Nav-link' href={props.navigation[elem]}>{elem}</a></li>
                         }
                     )
                 }

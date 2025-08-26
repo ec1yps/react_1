@@ -4,7 +4,7 @@ function Article(props) {
 	let {title, content} = props;
 	return (
 		<article>
-			<h1 style={{color:"darkblue", fontSize:"32px"}}>{title}</h1>
+			<h1 style={{color:"green", fontSize:"32px"}}>{title}</h1>
 			{content}
 			{/* <h2>
 				Современные десктопные процессоры архитектуры x86 общие принципы работы (x86 CPU digest 2.0)

@@ -3,3 +3,7 @@ article {
     color: rgb(211, 211, 211);
     padding: 15px;
 }
+
+.card {
+    display: inline-block;
+}
